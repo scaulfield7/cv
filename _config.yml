@@ -2,3 +2,9 @@ theme: jekyll-theme-minimal
 title: Sarah Caulfield CV
 author: Sarah Caulfield
 description: Sarah Caulfield's CV
+# Custom CSS file for dark mode
+css:
+  - "assets/css/dark-mode.css"
+# Custom JavaScript file for enabling dark mode
+javascript:
+  - "assets/javascript/enable-dark-mode.js"
