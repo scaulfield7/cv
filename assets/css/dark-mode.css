@@ -1,19 +1,19 @@
 /* Dark-Mode Styles */
-body {
+body.dark-mode {
   background-color: #121212;
   color: white;
 }
 
 /* Links in Dark-Mode */
-a {
+body.dark-mode a {
   color: #BB86FC;
 }
 
 /* Additional Dark-Mode Styling */
-header, footer {
+body.dark-mode header, body.dark-mode footer {
   background-color: #1f1f1f;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
   color: #E1E1E1;
 }
