@@ -1,0 +1,19 @@
+/* Dark-Mode Styles */
+body {
+  background-color: #121212;
+  color: white;
+}
+
+/* Links in Dark-Mode */
+a {
+  color: #BB86FC;
+}
+
+/* Additional Dark-Mode Styling */
+header, footer {
+  background-color: #1f1f1f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #E1E1E1;
+}
