@@ -1,10 +1,10 @@
 # Sarah Caulfield
 
-_Software Engineer_ <br>
+_Software engineer interested in sustainable software development._ <br>
 
 [Email](mailto:scaulfield@live.ie) / [LinkedIn](https://www.linkedin.com/in/scaulfield7/) / [GitHub](https://github.com/scaulfield7/)
 
-## 👩🏼‍💻 Engineering Experience
+## 👩🏻‍💻 Engineering Experience
 
 **Software Developer**, [SAP](https://sap.com) _(May 2021 - present)_ <br>
 A global leader in enterprise applications and business AI, which helps organisations to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience.
@@ -18,7 +18,7 @@ A global leader in enterprise applications and business AI, which helps organisa
   - **_Technologies used:_** Java, Spring, Node.js, Git, Python, SQL, TypeScript, React, CSS, HTML
 <br><br>
 
-## Open-Source contributions
+## 🔓 Open-Source contributions
 
 See [this GitHub search query](https://github.com/search?q=is%3Apr+author%3Ascaulfield7+is%3Amerged+-user%3Ascaulfield7+is%3Apublic&type=pullrequests) for a full overview of my open-source contributions.
 
