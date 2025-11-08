@@ -16,7 +16,6 @@
 
   <!-- Include JavaScript file to enable dark mode -->
   <script src="{{ site.baseurl }}/assets/javascript/enable-dark-mode.js" defer></script>
-
 </head>
 <body>
   <header>
@@ -25,14 +24,14 @@
     <div class="container">
       <div class="row">
         <!-- Sidebar (left-column) content (from _config.yml) -->
-        <aside class="col-md-4">
+        <aside class="col-12 col-md-4">
           <div class="sidebar">
             <h2>{{ site.title }}</h2>
             <p>{{ site.description }}</p>
           </div>
         </aside>
         <!-- Main (right-column) content (from README.md) -->
-        <section class="col-md-8">
+        <section class="col-12 col-md-8">
           {{ content }}
         </section>
       </div>
