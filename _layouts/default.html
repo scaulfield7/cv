@@ -11,7 +11,6 @@
   
   <!-- Include dark-mode CSS file -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
-
   <!-- Include main stylesheet -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
@@ -20,7 +19,26 @@
 
 </head>
 <body>
-  <!-- Body content goes here -->
-  {{ content }}
+  <header>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <!-- Sidebar (left-column) content (from _config.yml) -->
+        <aside class="col-md-4">
+          <div class="sidebar">
+            <h2>{{ site.title }}</h2>
+            <p>{{ site.description }}</p>
+          </div>
+        </aside>
+        <!-- Main (right-column) content (from README.md) -->
+        <section class="col-md-8">
+          {{ content }}
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
 </body>
 </html>
