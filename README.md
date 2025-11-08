@@ -18,7 +18,7 @@ A global leader in enterprise applications and business AI, which helps organisa
   - **_Technologies used:_** Java, Spring, Node.js, Git, Python, SQL, TypeScript, React, CSS, HTML
 <br><br>
 
-## 🔓 Open-Source contributions
+## 🔓 Open-Source Contributions
 
 See [this GitHub search query](https://github.com/search?q=is%3Apr+author%3Ascaulfield7+is%3Amerged+-user%3Ascaulfield7+is%3Apublic&type=pullrequests) for a full overview of my open-source contributions.
 
