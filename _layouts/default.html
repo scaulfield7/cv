@@ -24,23 +24,9 @@
 <body>
     <header>
     </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <!-- Sidebar (left-column) content (from _config.yml) -->
-                <aside class="col-12 col-md-4">
-                    <div class="sidebar">
-                        <h2>{{ site.title }}</h2>
-                        <p>{{ site.description }}</p>
-                    </div>
-                </aside>
-                <!-- Main (right-column) content (from README.md) -->
-                <section class="col-12 col-md-8">
-                    {{ content }}
-                </section>
-            </div>
-        </div>
-    </main>
+    <section>
+        {{ content }}
+    </section>
     <footer>
     </footer>
 </body>
