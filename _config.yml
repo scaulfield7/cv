@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-title: Sarah Caulfield  - Software Engineer
+title: Sarah Caulfield - Software Engineer
 author: Sarah Caulfield
-description: Hard-working, proactive, and diligent, with top academic results. I thrive on opportunities to learn, improve and innovate. I enjoy finding ways to make applications and processes more efficient.
+description: "Hard-working, proactive, and diligent, with top academic results. I thrive on opportunities to learn, improve and innovate. I enjoy finding ways to make applications and processes more efficient."
 # Custom CSS file for dark mode
 css:
   - "/assets/css/dark-mode.css"
