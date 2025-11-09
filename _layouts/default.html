@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Link to favicon -->
-  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+    <!-- Link to favicon -->
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
 
-  <title>{{ page.title | default: site.title }}</title>
-  
-  <!-- Include main stylesheet -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  <!-- Include dark-mode CSS file -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
-  
-  <!-- Include JavaScript file to enable dark mode -->
-  <script src="{{ site.baseurl }}/assets/javascript/enable-dark-mode.js" defer></script>
+    <title>{{ page.title | default: site.title }}</title>
+
+    <!-- Include main stylesheet -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <!-- Include dark-mode CSS file -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
+
+    <!-- Use scale.fix.js file from Jekyll theme -->
+    <script src="{{ site.baseurl }}/assets/js/scale.fix.js" defer></script>
+    <!-- Include JavaScript file to enable dark mode -->
+    <script src="{{ site.baseurl }}/assets/js/enable-dark-mode.js" defer></script>
 </head>
 <body>
-  <header>
-  </header>
-  <main>
-    <div class="container">
-      <div class="row">
-        <!-- Sidebar (left-column) content (from _config.yml) -->
-        <aside class="col-12 col-md-4">
-          <div class="sidebar">
-            <h2>{{ site.title }}</h2>
-            <p>{{ site.description }}</p>
-          </div>
-        </aside>
-        <!-- Main (right-column) content (from README.md) -->
-        <section class="col-12 col-md-8">
-          {{ content }}
-        </section>
-      </div>
-    </div>
-  </main>
-  <footer>
-  </footer>
-  <!-- Use scale.fix.js file from Jekyll theme -->
-  <script src="{{ site.baseurl }}/assets/js/scale.fix.js" defer></script>
+    <header>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar (left-column) content (from _config.yml) -->
+                <aside class="col-12 col-md-4">
+                    <div class="sidebar">
+                        <h2>{{ site.title }}</h2>
+                        <p>{{ site.description }}</p>
+                    </div>
+                </aside>
+                <!-- Main (right-column) content (from README.md) -->
+                <section class="col-12 col-md-8">
+                    {{ content }}
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
 </body>
 </html>

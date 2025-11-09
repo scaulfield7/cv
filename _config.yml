@@ -6,5 +6,5 @@ description: Hard-working, proactive, and diligent, with top academic results. I
 css:
   - "/assets/css/dark-mode.css"
 # Custom JavaScript file for enabling dark mode
-javascript:
-  - "/assets/javascript/enable-dark-mode.js"
+js:
+  - "/assets/js/enable-dark-mode.js"
