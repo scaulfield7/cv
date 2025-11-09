@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en" }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Link to favicon -->
-    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-
-    <title>{{ page.title | default: site.title }}</title>
-
-    <!-- Include main stylesheet -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
     <!-- Include layout CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/layout.css">
     <!-- Include dark-mode CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
+
+    <!-- Link to favicon -->
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
 
     <!-- Use scale.fix.js file from Jekyll theme -->
     <script src="{{ site.baseurl }}/assets/js/scale.fix.js" defer></script>
