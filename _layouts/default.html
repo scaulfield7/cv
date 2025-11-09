@@ -38,6 +38,10 @@
             {{ content }}
         </section>
         <footer>
+            {% if site.github.is_project_page %}
+            <p><small>A project by <a href="{{ site.github.owner_url }}">{{ site.author }}</a></small></p>
+            {% endif %}
+      </p>
         </footer>
     </div>
     <!-- Use scale.fix.js file from Jekyll theme -->
