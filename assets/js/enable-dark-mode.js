@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (document.body.classList.contains("dark-mode")) {
             // Switch to light mode
             document.body.classList.remove("dark-mode");
+            document.body.classList.add('light-mode');
             localStorage.setItem('theme', 'light');
             themeToggleIcon.className = 'fa fa-moon-o'; 
         } else {
