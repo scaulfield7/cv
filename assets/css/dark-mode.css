@@ -4,31 +4,31 @@ body {
 }
 
 /* Links In Dark-Mode */
-a {
+body.dark-mode a {
   color: #1ed4e8;
 }
 
-a:hover {
+body.dark-mode a:hover {
   color: #00d4d4;
 }
 
-a:visited {
+body.dark-mode a:visited {
   color: #006f77;
 }
 
-a:active {
+body.dark-mode a:active {
   color: #14b6bb;
 }
 
 /* Additional Dark-Mode Styling */
-header, footer {
+body.dark-mode header, body.dark-mode footer {
   background-color: #1f1f1f;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
   color: #E1E1E1;
 }
 
-strong, b {
+body.dark-mode strong, body.dark-mode b {
   color: #ffffff;
 }
