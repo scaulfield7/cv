@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
             themeToggleIcon.className = 'fa fa-moon-o'; 
         } else {
             // Switch to dark mode
+            document.body.classList.remove("light-mode");
             document.body.classList.add("dark-mode");
             localStorage.setItem('theme', 'dark');
             themeToggleIcon.className = 'fa fa-sun-o';

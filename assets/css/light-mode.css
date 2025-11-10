@@ -4,31 +4,31 @@ body {
 }
 
 /* Links In Light-Mode */
-a {
+body.light-mode a {
   color: #1ed4e8;
 }
 
-a:hover {
+body.light-mode a:hover {
   color: #00d4d4;
 }
 
-a:visited {
+body.light-mode a:visited {
   color: #006f77;
 }
 
-a:active {
+body.light-mode a:active {
   color: #14b6bb;
 }
 
 /* Additional Light-Mode Styling */
-header, footer {
+body.light-mode header, body.light-mode footer {
   background-color: #f1f1f1;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
   color: #0E0E0E;
 }
 
-strong, b {
+body.light-mode strong, body.light-mode b {
   color: #000000;
 }
