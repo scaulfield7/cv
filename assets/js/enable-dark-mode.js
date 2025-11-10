@@ -22,12 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Function to toggle between dark and light mode
-    window.changeTheme = function() {
+    function changeTheme() {
+        console.log("Button clicked. Toggling theme...");
         if (document.body.classList.contains("dark-mode")) {
             // Switch to light mode
             document.body.classList.remove("dark-mode");
             localStorage.setItem('theme', 'light');
-            themeToggleIcon.className = 'fa fa-sun-o';
+            themeToggleIcon.className = 'fa fa-sun-o'; 
             themeToggleLabel.textContent = 'Light Mode';
         } else {
             // Switch to dark mode
@@ -37,4 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             themeToggleLabel.textContent = 'Dark Mode';
         }
     }
+
+    // Bind button to changeTheme function using event listener
+    themeToggleButton.addEventListener("click", changeTheme);
 });
