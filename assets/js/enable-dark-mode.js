@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // If no theme preference is stored, default to dark mode
     if (storedTheme === 'dark' || storedTheme === null) {
         document.body.classList.add('dark-mode');  // Apply dark mode
-        themeToggleIcon.className = 'fa fa-moon-o'; // Set moon icon
-        themeToggleLabel.textContent = 'Dark Mode'; // Update button label
+        themeToggleIcon.className = 'fa fa-sun-o';
+        themeToggleLabel.textContent = 'Light Mode';
     } else {
         // Default to light mode if 'theme' is set to 'light'
         document.body.classList.remove('dark-mode');
-        themeToggleIcon.className = 'fa fa-sun-o'; // Set sun icon
-        themeToggleLabel.textContent = 'Light Mode'; // Update button label
+        themeToggleIcon.className = 'fa fa-moon-o';
+        themeToggleLabel.textContent = 'Dark Mode';
     }
 
     // Function to toggle between dark and light mode

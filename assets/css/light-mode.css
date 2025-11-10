@@ -1,10 +1,10 @@
-/* Dark-Mode Styles */
+/* Light-Mode Styles */
 body {
-  background-color: #121212;
+  background-color: #f1f1f1;
   font-family: "JetBrains Mono", monospace;
 }
 
-/* Links In Dark-Mode */
+/* Links In Light-Mode */
 a {
   color: #1ed4e8;
 }
@@ -21,15 +21,15 @@ a:active {
   color: #14b6bb;
 }
 
-/* Additional Dark-Mode Styling */
+/* Additional Light-Mode Styling */
 header, footer {
-  background-color: #1f1f1f;
+  background-color: #f1f1f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #E1E1E1;
+  color: #0E0E0E;
 }
 
 strong, b {
-  color: #ffffff;
+  color: #000000;
 }
