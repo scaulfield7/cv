@@ -34,7 +34,7 @@ body.light-mode strong, body.light-mode b {
 }
 
 /* Toggle-Button Styling */
-body.light-mode-mode #theme-toggle-button {
+body.light-mode #theme-toggle-button {
     color: #333333;
 }
 
