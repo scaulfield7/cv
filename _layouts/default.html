@@ -10,6 +10,8 @@
     {% include head-custom.html %}
     <!-- Include dark-mode CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
+    <!-- Font Awesome (for sun and moon icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Link to favicon -->
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
@@ -35,6 +37,10 @@
             {% endif %}
         </header>
         <section>
+            <button id="theme-toggle-button" onclick="changeTheme()">
+                <span id="theme-toggle-icon" class="fa fa-sun-o"></span>
+                <span id="theme-toggle-label">Light Mode</span>
+            </button>
             {{ content }}
         </section>
         <footer>

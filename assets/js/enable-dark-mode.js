@@ -1,23 +1,40 @@
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("Running enable-dark-mode.js");
-  // Check if dark mode preference is stored in localStorage and apply it
-  if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark-mode');
-  } else {
-    // If no theme preference is stored, set dark mode by default
-    document.body.classList.add('dark-mode');
-    localStorage.setItem('theme', 'dark');
-  }
+    console.log("Running enable-dark-mode.js");
 
-  // Allow toggling of dark mode on or off
-  // TODO: Implement button or switch to call this function
-  function toggleDarkMode() {
-    if (document.body.classList.contains("dark-mode")) {
-      document.body.classList.remove("dark-mode");
-      localStorage.setItem('theme', 'light');
+    // Get theme toggle button and its elements
+    const themeToggleButton = document.getElementById('theme-toggle-button');
+    const themeToggleIcon = document.getElementById('theme-toggle-icon');
+    const themeToggleLabel = document.getElementById('theme-toggle-label');
+
+    // Check if dark mode preference is stored in localStorage
+    const storedTheme = localStorage.getItem('theme');
+
+    // If no theme preference is stored, default to dark mode
+    if (storedTheme === 'dark' || storedTheme === null) {
+        document.body.classList.add('dark-mode');  // Apply dark mode
+        themeToggleIcon.className = 'fa fa-moon-o'; // Set moon icon
+        themeToggleLabel.textContent = 'Dark Mode'; // Update button label
     } else {
-      document.body.classList.add("dark-mode");
-      localStorage.setItem('theme', 'dark');
+        // Default to light mode if 'theme' is set to 'light'
+        document.body.classList.remove('dark-mode');
+        themeToggleIcon.className = 'fa fa-sun-o'; // Set sun icon
+        themeToggleLabel.textContent = 'Light Mode'; // Update button label
     }
-  }
+
+    // Function to toggle between dark and light mode
+    window.changeTheme = function() {
+        if (document.body.classList.contains("dark-mode")) {
+            // Switch to light mode
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem('theme', 'light');
+            themeToggleIcon.className = 'fa fa-sun-o';
+            themeToggleLabel.textContent = 'Light Mode';
+        } else {
+            // Switch to dark mode
+            document.body.classList.add("dark-mode");
+            localStorage.setItem('theme', 'dark');
+            themeToggleIcon.className = 'fa fa-moon-o';
+            themeToggleLabel.textContent = 'Dark Mode';
+        }
+    }
 });
