@@ -8,6 +8,8 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <!-- Include common CSS file -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/common.css">
     <!-- Include dark-mode CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
     <!-- Include light-mode CSS file -->
