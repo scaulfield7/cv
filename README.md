@@ -6,7 +6,7 @@ _Software engineer interested in sustainable software development._ <br>
 
 ## 👩🏻‍💻 Career History
 
-**Software Developer**, [SAP](https://sap.com) _(May 2021 - present)_ <br>
+### **Software Developer**, [SAP](https://sap.com) _(May 2021 - present)_ <br>
 A global leader in enterprise applications and business AI, which helps organisations to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience.
   - Full-stack development of new features in SAC
 (SAP Analytics Cloud) in an agile team
