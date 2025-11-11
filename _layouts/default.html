@@ -28,11 +28,6 @@
 
             <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-            {% if site.github.is_project_page %}
-            <p class="view"><a href="{{ site.github.repository_url }}">View project source code<small>{{
-                        site.github.repository_nwo }}</small></a></p>
-            {% endif %}
-
             {% if site.github.is_user_page %}
             <p class="view"><a href="{{ site.github.owner_url }}">View my GitHub profile</a></p>
             {% endif %}
@@ -46,6 +41,10 @@
         <footer>
             {% if site.github.is_project_page %}
             <p><small>A project by <a href="{{ site.github.owner_url }}">{{ site.author }}</a></small></p>
+            {% endif %}
+            {% if site.github.is_project_page %}
+            <p class="view"><a href="{{ site.github.repository_url }}">View project source code<small>{{
+                        site.github.repository_nwo }}</small></a></p>
             {% endif %}
       </p>
         </footer>
