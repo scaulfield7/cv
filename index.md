@@ -1,4 +1,4 @@
-# Sarah Caulfield
+# Java | Spring | AI | API Development | Microservices
 
 _Software engineer interested in sustainable software development._ <br>
 
