@@ -4,7 +4,7 @@ _Software engineer interested in sustainable software development._ <br>
 
 [Email](mailto:scaulfield@live.ie) | [LinkedIn](https://www.linkedin.com/in/scaulfield7/) | [GitHub](https://github.com/scaulfield7/)
 
-## 👩🏻‍💻 Engineering Experience
+## 👩🏻‍💻 Career History
 
 **Software Developer**, [SAP](https://sap.com) _(May 2021 - present)_ <br>
 A global leader in enterprise applications and business AI, which helps organisations to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience.
