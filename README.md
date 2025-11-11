@@ -20,7 +20,7 @@ A global leader in enterprise applications and business AI, which helps organisa
 
 ## 🔓 Open-Source Contributions
 
-See [this GitHub search query](https://github.com/search?q=is%3Apr+author%3Ascaulfield7+is%3Amerged+-user%3Ascaulfield7+is%3Apublic&type=pullrequests) for a full overview of my open-source contributions.
+See [this GitHub search query](https://github.com/search?q=author%3Ascaulfield7+is%3Amerged+-user%3Ascaulfield7+is%3Apublic&type=pullrequests) for a full overview of my open-source contributions.
 
 ## 💬 Languages
 
