@@ -4,7 +4,9 @@ author: Sarah Caulfield
 description: Hard-working, proactive, and diligent, with top academic results. I thrive on opportunities to learn, improve and innovate. I enjoy finding ways to make applications and processes more efficient.
 css:
   - "/assets/css/style.css"
+  - "/assets/css/common.css"
   - "/assets/css/dark-mode.css"
+  - "/assets/css/light-mode.css"
 js:
   - "/assets/js/scale.fix.js"
   - "/assets/js/enable-dark-mode.js"
