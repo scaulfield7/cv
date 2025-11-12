@@ -1,37 +1,37 @@
 /* Light-Mode Styles */
 body {
-  background-color: #f1f1f1;
+  background-color: #e5e5e5;
   color: #060708;
 }
 
 /* Links In Light-Mode */
 body.light-mode a {
-  color: #1ed4e8;
+  color: #e0463e;
 }
 
 body.light-mode a:hover {
-  color: #00d4d4;
+  color: #e25750;
 }
 
 body.light-mode a:visited {
-  color: #006f77;
+  color: #eb8984;
 }
 
 body.light-mode a:active {
-  color: #14b6bb;
+  color: #dd352c;
 }
 
 /* Additional Light-Mode Styling */
 body.light-mode header, body.light-mode footer {
-  background-color: #f1f1f1;
+  background-color: #e5e5e5;
 }
 
 body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
-  color: #0E0E0E;
+  color: #121317;
 }
 
 body.light-mode strong, body.light-mode b {
-  color: #000000;
+  color: #090a0c;
 }
 
 /* Toggle-Button Styling */
@@ -40,5 +40,5 @@ body.light-mode #theme-toggle-button {
 }
 
 body.light-mode #theme-toggle-button:hover {
-    color: #555555;
+    color: #57473c;
 }
