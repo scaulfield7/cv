@@ -6,6 +6,7 @@ css:
   - "/assets/css/style.css"
   - "/assets/css/common.css"
   - "/assets/css/dark-mode.css"
+  - "/assets/css/light-mode.css"
 js:
   - "/assets/js/scale.fix.js"
   - "/assets/js/enable-dark-mode.js"
