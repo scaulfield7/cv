@@ -1,42 +1,42 @@
 /* Dark-Mode Styles */
 body.dark-mode {
-  background-color: #1f1f1f;
+  background-color: #1A1A1A;
   color: #F9F8F7;
 }
 
 /* Links In Dark-Mode */
 body.dark-mode a {
-  color: #1ed4e8;
+  color: #1fb9c1;
 }
 
 body.dark-mode a:hover {
-  color: #00d4d4;
+  color: #1DA8AF;
 }
 
 body.dark-mode a:visited {
-  color: #006f77;
+  color: #14767B;
 }
 
 body.dark-mode a:active {
-  color: #14b6bb;
+  color: #22CAD3;
 }
 
 /* Additional Dark-Mode Styling */
 body.dark-mode header, body.dark-mode footer {
-  background-color: #1f1f1f;
+  background-color: #1A1A1A;
 }
 
 body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
-  color: #E1E1E1;
+  color: #EDECE8;
 }
 
 body.dark-mode strong, body.dark-mode b {
-  color: #ffffff;
+  color: #F6F5F3;
 }
 
 /* Toggle-Button Styling */
 body.dark-mode #theme-toggle-button {
-    color: #E1E1E1;
+    color: #F6F5F3;
 }
 
 body.dark-mode #theme-toggle-button:hover {
