@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'cv/cv.tex'
+      - 'cv.tex'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,9 +13,8 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv.tex
-          working_directory: cv
       - name: Commit PDF
         uses: stefanzweifel.git-auto-commit-action@v5
         with:
           commit_message: "Auto-build CV PDF"
-          file_pattern: cv/cv.pdf
+          file_pattern: cv.pdf
