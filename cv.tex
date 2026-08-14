@@ -1,0 +1,227 @@
+%-------------------------
+% CV in Latex
+% Author: Sarah Caulfield
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections Formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom Commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Sarah Caulfield} \\ \vspace{1pt}
+    \small \faPhone\ +353 85 756 2774 $|$ \faEnvelope\ \href{mailto:scaulfield@live.ie}{\underline{scaulfield@live.ie}} $|$ 
+    \faLinkedin\ \href{https://linkedin.com/in/scaulfield7}{\underline{linkedin.com/in/scaulfield7}} $|$
+    \faGithub\ \href{https://github.com/scaulfield7}{\underline{github.com/scaulfield7}}
+\end{center}
+
+\vspace{-10.361pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Developer}{May 2021 -- present}
+      {SAP}{Dublin, Ireland}
+      \resumeItemListStart
+        \resumeItem{Designed and delivered REST APIs for data import and export, with 100s of confirmed enterprise customers}
+        \resumeItem{Extended a cloud product to support 49 languages, enabling expansion across international markets}
+        \resumeItem{Developed backend features in Java, also working across Python, TypeScript, SQL and React}
+        \resumeItem{Built and maintained unit, acceptance and end-to-end test suites, developing deep knowledge of system behaviour and edge cases across multiple services}
+        \resumeItem{Collaborated cross-functionally on technical delivery within an enterprise-scale agile environment}
+      \resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Integration Engineer}{November 2019 –- May 2021}
+      {SAP}{Galway, Ireland}
+      \resumeItemListStart
+        \resumeItem{Scripted, designed and tested enterprise integration workflows on a cloud platform using Java, Python and REST}
+        \resumeItem{Configured and validated 100+ integration connections (SOAP, HTTPS, SFTP, EBICS, Swift), supporting a platform serving 800+ financial institutions and 100s of large enterprise customers}
+        \resumeItem{Diagnosed and resolved network and protocol-level issues in complex enterprise integration environments}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Design Intern}{August 2019 -– September 2019}
+      {Launchpad, University of Galway}{Galway, Ireland}
+      \resumeItemListStart
+        \resumeItem{Built the Launchpad website (HTML, CSS, JavaScript, PHP and WordPress) and trained the team on CMS}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Support Associate with Spanish \& French}{October 2016 -– September 2018}
+      {SAP}{Galway, Ireland}
+      \resumeItemListStart
+        \resumeItem{Wrote automation scripts that reduced chat response time by 400-4000\%, directly improving team output}
+        \resumeItem{Coached 8 teammates, trained 50+ colleagues, resolved technical issues and managed ticket queues}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Technical}{: Java, Spring Boot, REST APIs, microservices, SQL, Git, Python, TypeScript, Node.js} \\
+     \textbf{Strengths}{: Leadership, proactivity, acting on feedback} \\
+     \textbf{Languages}{: English (native), Spanish (fluent), French (fluent)} \\
+    }}
+ \end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Technological University Dublin}{2020 -- 2021}
+      {Foundations Certificate in Artificial Intelligence}{Distinction}
+    \resumeSubheading
+      {University of Galway}{2018 -- 2019}
+      {Higher Diploma in Applied Science (Software Design \& Development)}{First Class Honours (1:1)}
+    \resumeSubheading
+      {University of Limerick}{2012 -- 2016}
+      {Bachelor of Arts in Applied Languages}{First Class Honours (1:1)}
+  \resumeSubHeadingListEnd
+\vspace{-1pt}
+
+ 
+%-----------VOLUNTEERING-----------
+\section{Volunteering}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Coding Teacher \& Organiser}{: GIRLsmarts4tech and SmartTech, \textit{SAP} (2022 -- present)} \\
+     \textbf{Tech Conference Organiser}{: d-com (developer conference), \textit{SAP} (2023)} \\
+    }}
+ \end{itemize}
+ 
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Career path speaker}{: \textit{SAP} (February 2023)} \\
+     \textbf{Academic speaker}{: \textit{Bright Club} (May 2018)} \\
+    }}
+ \end{itemize}
+
+
+ %-----------INTERESTS-----------
+\section{Interests}
+ \resumeSubHeadingListStart
+ \resumeItem{Football (former captain and trainer), soccer, cycling, surfing, hiking, yoga, guitar, ukulele (self-taught) and comedy}
+ \resumeSubHeadingListEnd
+
+ 
+%-------------------------------------------
+\end{document}
