@@ -1,22 +1,21 @@
 name: Build CV PDF
-on: [push]
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cv/cv.tex'
 jobs:
-  build_latex:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Set Up Git Repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false # Otherwise uses GITHUB_TOKEN instead of personal access token
-          fetch-depth: 0 # Prevents errors pushing refs to destination repository.
+      - uses: actions/checkout@v4
       - name: Compile LaTeX Document
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv.tex
-      - name: Test
-        run: cat cv.pdf
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
+          working_directory: cv
+      - name: Commit PDF
+        uses: stefanzweifel.git-auto-commit-action@v5
         with:
-          files: cv.pdf
+          commit_message: "Auto-build CV PDF"
+          file_pattern: cv/cv.pdf
