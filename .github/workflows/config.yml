@@ -14,9 +14,9 @@ jobs:
         with:
           root_file: cv.tex
       - name: Test
-        run: cat sarah_caulfield_cv.pdf
+        run: cat cv.pdf
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: sarah_caulfield_cv.pdf
+          files: cv.pdf
