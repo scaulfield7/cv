@@ -1,16 +1,16 @@
-name: Build LaTeX Document
+name: Build CV PDF
 on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
       - name: Set Up Git Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           persist-credentials: false # Otherwise uses GITHUB_TOKEN instead of personal access token
           fetch-depth: 0 # Prevents errors pushing refs to destination repository.
       - name: Compile LaTeX Document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: cv.tex
       - name: Test
